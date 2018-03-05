@@ -1,0 +1,189 @@
+.wrap1 .div {
+  margin: 0;
+  padding: 0;
+   width: 100%;
+   list-style:none;
+   height:50px;
+}
+.wrap1 .div li{
+  width:25%;
+  height:40px;
+  line-height:40px;
+  text-align: center;
+  background: #ccc;
+  color: #fff;
+  float: left;
+  border:1px solid #000;
+  box-sizing: border-box;
+}
+.box1{
+  width: 200px;
+  height:200px;
+  border:1px solid #000;
+  margin: 20px;
+  position: relative;
+}
+.box1 .div1{
+  width: 40px;
+  height:40px;
+  background: red;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
+.box2{
+  width: 200px;
+  height:200px;
+  border:1px solid #000;
+  margin: 20px;
+  display:flex;
+  /* 水平居中 */
+  justify-content:center;
+  /* 水平居左 */
+  /* justify-content:flex-start; */
+  /* 水平居右 */
+  /* justify-content:flex-end; */
+  /* 两端对齐 */
+  /* justify-content:space-between; */
+  /* 每个子元素拉手分布 */
+  /* justify-content:space-around; */
+  color:#fff;
+}
+.box2 .div1{
+  width: 40px;
+  height:40px;
+  background: red;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.box3{
+  width: 200px;
+  height:200px;
+  border:1px solid #000;
+  margin: 20px;
+  display:flex;
+  justify-content:center;
+  /* 垂直居中 */
+  align-items: center;
+  /* 垂直居顶 */
+  /* align-items:flex-start; */
+  /* 垂直居底 */
+  /* align-items:flex-end; */
+  color:#fff;
+}
+.box3 .div1{
+  width: 40px;
+  height:40px;
+  background: red;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.box4{
+  width: 200px;
+  height:200px;
+  border:1px solid #000;
+  margin: 20px;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  /* 横向排列 */
+  /* flex-direction:row; */
+  /* 纵向排列 */
+  flex-direction: column;
+  /* flex-direction:column-reverse; */
+}
+.box4 .div1{
+  width: 40px;
+  height:40px;
+  background: red;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.box5{
+  width: 200px;
+  height:200px;
+  border:1px solid #000;
+  margin: 20px;
+  color:#fff;
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  align-content:center;
+}
+.box5 .div1{
+  width: 40px;
+  height:40px;
+  background: red;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.box6{
+  width: 200px;
+  height:200px;
+  border:1px solid #000;
+  margin: 20px;
+  color:#fff;
+  display:flex;
+}
+.box6 .div1{
+  height:40px;
+  background: red;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  border:1px solid yellow;
+  flex: 1;
+}
+.box7{
+  width: 200px;
+  height:200px;
+  border:1px solid #000;
+  margin: 20px;
+  color:#fff;
+  display:flex;
+}
+.box7 .div1{
+  height:40px;
+  background: red;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  border:1px solid yellow;
+  box-sizing: border-box;
+}
+.box7 .item1{
+    flex: 1;
+}
+.box7 .item2{
+    flex: 2;
+}
+.box7 .item3{
+    flex: 3;
+}
+.box8{
+  width: 200px;
+  height:200px;
+  border:1px solid #000;
+  margin: 20px;
+  color:#fff;
+  display:flex;
+  flex-wrap:wrap;
+  align-content:flex-start;
+}
+.box8 .div1{
+  width:40px;
+  height:40px;
+  background: red;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  border:1px solid yellow;
+  box-sizing: border-box;
+  flex-grow:1;
+}
